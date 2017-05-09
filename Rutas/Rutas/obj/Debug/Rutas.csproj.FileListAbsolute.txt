@@ -1,0 +1,10 @@
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\bin\Debug\Rutas.exe.config
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\bin\Debug\Rutas.exe
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\bin\Debug\Rutas.pdb
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.csprojResolveAssemblyReference.cache
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.Form1.resources
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.Properties.Resources.resources
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.csproj.GenerateResource.Cache
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.exe
+c:\users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.pdb
+C:\Users\fxavi\documents\visual studio 2015\Projects\Rutas\Rutas\obj\Debug\Rutas.frm_Recorrido.resources
