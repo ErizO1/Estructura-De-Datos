@@ -1,0 +1,9 @@
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\bin\Debug\Procesos_LS.exe.config
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\bin\Debug\Procesos_LS.exe
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\bin\Debug\Procesos_LS.pdb
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\obj\Debug\Procesos_LS.csprojResolveAssemblyReference.cache
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\obj\Debug\Procesos_LS.Form1.resources
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\obj\Debug\Procesos_LS.Properties.Resources.resources
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\obj\Debug\Procesos_LS.csproj.GenerateResource.Cache
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\obj\Debug\Procesos_LS.exe
+c:\users\fxavi\documents\visual studio 2015\Projects\Procesos_LS\Procesos_LS\obj\Debug\Procesos_LS.pdb
