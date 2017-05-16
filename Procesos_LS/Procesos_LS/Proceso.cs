@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Procesos_LS
 {
-    class Proceso
+    public class Proceso
     {
         private static Random _r;
 

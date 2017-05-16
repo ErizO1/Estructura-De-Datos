@@ -17,11 +17,11 @@ namespace FIFO
         public Form1()
         {
             InitializeComponent();
+            p = new Procesador();
         }
 
         private void bt_Comenzar_Click(object sender, EventArgs e)
         {
-            p = new Procesador();
             p.simular(200);
             tb_vacios.Text = p.ciclosVacios.ToString();
             tb_procesos.Text = p.procesosPendientes.ToString();

@@ -4,16 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FIFO
+namespace Procesos_LS
 {
-    class Procesador
+    public class Procesador
     {
-        private FIFO f;
+        ListaCircular lc;
         private static Random r;
 
         public int ciclosVacios { get; private set; }
+        public int procesosMaximos { get; private set; }
         public int procesosPendientes { get; private set; }
         public int ciclosPendientes { get; private set; }
+        public int procesosTerminados { get; private set; }
 
         public Procesador()
         {
@@ -22,32 +24,45 @@ namespace FIFO
 
         public void simular(int ciclos)
         {
-            f = new FIFO();
+            lc = new ListaCircular();
             ciclosVacios = 0;
+            procesosMaximos = 0;
+            procesosPendientes = 0;
             ciclosPendientes = 0;
             procesosPendientes = 0;
+            procesosTerminados = 0;
 
             for (int i = 0; i < ciclos; i++)
             {
+                #region Agregar Proceso
                 if (r.Next(0, 4) == 0)
                 {
                     Proceso temp = new Proceso();
-                    f.enqueue(temp);
+                    lc.enqueue(temp);
                     procesosPendientes++;
-                    ciclosPendientes += temp.ciclosRestantes;
+                    ciclosPendientes += temp.Anterior.ciclosRestantes;
+                    if (procesosMaximos < procesosPendientes)
+                        procesosMaximos = procesosPendientes;
                 }
-                if (f.peek() != null)
+                #endregion
+
+                #region Atender Proceso
+                if (lc.peek() != null)
                 {
-                    f.peek().ciclosRestantes--;
-                    if (f.peek().ciclosRestantes == 0)
+                    lc.peek().ciclosRestantes--;
+                    if (lc.peek().ciclosRestantes == 0)
                     {
-                        f.dequeue();
+                        lc.dequeue();
+                        procesosTerminados++;
                         procesosPendientes--;
                     }
                     ciclosPendientes--;
                 }
                 else
+                {
                     ciclosVacios++;
+                }
+                #endregion
             }
         }
     }

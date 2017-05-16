@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FIFO
 {
-    class Proceso
+    public class Proceso
     {
         private static Random _r;
 
